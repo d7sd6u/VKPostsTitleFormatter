@@ -1,0 +1,25 @@
+{
+	"name": "d7sd6u/vk-posts-title-generator",
+	"description": "Small library for generating titles for posts from VKPostsExtractorParser and VKPostsExtractorApi output.",
+	"type": "library",
+	"keywords": ["vk", "posts", "title"],
+	"homepage": "https://github.com/d7sd6u/VKPostsTitleGenerator",
+	"license": "LGPL-2.1-or-later",
+	"authors": [
+		{
+			"name": "d7sd6u",
+			"homepage": "https://github.com/d7sd6u"
+		}
+	],
+	"support": {
+		"issues": "https://github.com/d7sd6u/VKPostsTitleGenerator/issues/",
+		"source": "https://github.com/d7sd6u/VKPostsTitleGenerator/",
+		"rss": "https://github.com/d7sd6u/VKPostsTitleGenerator/commits/master.atom"
+	},
+	"autoload": {
+		"files": [ "src/TitleGenerator.php" ]
+	},
+	"require-dev": {
+		"phpunit/phpunit": "^9"
+	}
+}
