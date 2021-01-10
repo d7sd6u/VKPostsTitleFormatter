@@ -23,7 +23,7 @@ class Generator {
 
 	public function generateTitle() {
 			$isEmpty = $this->postIsEmpty($this->post);
-			$hasRepost = isset($this->post['repost']);
+			$hasRepost = !empty($this->post['repost']);
 			$hasPool = !empty($this->post['pool']);
 			$hasText = !empty($this->post['text']['plaintext']);
 			$hasArticle = !empty($this->post['article']);
